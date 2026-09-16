@@ -91,6 +91,7 @@ The `registrations` table connects students with events using `user_id` and `eve
 A unique constraint on `(user_id, event_id)` prevents the same student from registering for the same event more than once.
 
 ## 🔄 Application Workflow:
+```text
 User
   ↓
 Home Page
